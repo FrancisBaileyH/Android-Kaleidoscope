@@ -119,7 +119,7 @@ public class MainActivity extends AppCompatActivity {
             canvas.drawPath(triangle_mask, fill);
             canvas.rotate(angle * 2, centerX, centerY);
         }
-        canvas.save();
+        
         return imageview_bitmap;
     }
 
